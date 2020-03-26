@@ -7,18 +7,6 @@ body {
 	background: linear-gradient(to right, #afbfcf, #dfefff, #efefff, #fff, #fff);
 }
 
-.icon-container {
-	font-size: 8rem;
-}
-
-.icon {
-	color: #234;
-	border-radius: 10px;
-	padding: .5rem;
-	margin: 1rem 2rem;
-	text-shadow: 5px 5px red;
-}
-
 nav, header, footer {
 	padding: 2rem;
 	background: linear-gradient(to left, #afbfcf, #dfefff, #efefff, #fff, #fff);	
@@ -30,6 +18,13 @@ nav, header, footer {
 	margin: 1rem;
 }
 
+.container {
+	/*margin-top: 7rem;*/
+	position: relative;
+	padding: 8rem;
+	height: 95vh;
+}
+
 .parent {
 	background: linear-gradient(to right, #afbfcf, #dfefff, #efefff, #fff, #fff);	
 }
@@ -39,7 +34,32 @@ nav, header, footer {
 	background-color: rgba(20, 30, 50, 0.2);
 }
 
-.green {
-	background-color: rgba(20, 30, 50, 0.8);
-	color: #0f0;
+.winter {
+	background: linear-gradient(to left, #afbfcf, #dfefff, #efefff, #fff, #fff);	
+	color: #00f;
+}
+
+.summer {
+	background: linear-gradient(to left, #cfbfaf, #ffefdf, #ffefef, #fff, #fff);	
+	color: #f00;
+}
+
+.icon-left {
+	position: absolute;
+	top: 5rem;
+	left: 5rem;
+}
+
+.icon-right {
+	position: absolute;
+	bottom: 5rem;
+	right: 5rem;
+}
+
+.result {
+	font-size: 3rem;
+	position: absolute;
+	left: 50%;
+	top: 40%;
+	transform: translate(-50%);
 }
